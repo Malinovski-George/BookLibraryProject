@@ -6,14 +6,15 @@
     <session-factory>
 
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/bookmanager</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.connection.datasource">jdbc/Library</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
 
-        <property name="connection.url">jdbc:mysql://localhost:3306/bookmanager</property>
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+
         <mapping resource="by/malinovski/library/entities/Author.hbm.xml"/>
         <mapping class="by.malinovski.library.entities.Author"/>
         <mapping resource="by/malinovski/library/entities/Book.hbm.xml"/>
