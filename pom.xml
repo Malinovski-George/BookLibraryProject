@@ -7,13 +7,25 @@
     <groupId>by.Malinovski</groupId>
     <artifactId>BookLibraryProject</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <properties>
-        <webflow-version>2.4.0.RELEASE</webflow-version>
-        <spring-framework-version>4.0.5.RELEASE</spring-framework-version>
-        <springsecurity-version>3.2.4.RELEASE</springsecurity-version>
+        <webflow-version>2.4.1.RELEASE</webflow-version>
+        <spring-framework-version>4.1.5.RELEASE</spring-framework-version>
+        <springsecurity-version>3.2.6.RELEASE</springsecurity-version>
         <slf4j-version>1.6.1</slf4j-version>
-        <mojarra-version>2.2.5</mojarra-version>
+        <mojarra-version>2.2.10</mojarra-version>
         <primefaces-version>5.0</primefaces-version>
         <hibernate-version>4.3.8.Final</hibernate-version>
         <mysqlconnector-version>5.1.34</mysqlconnector-version>

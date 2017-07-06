@@ -9,21 +9,22 @@
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="connection.url">jdbc:mysql://localhost:3306/bookmanager</property>
         <property name="hibernate.show_sql">true</property>
-        <property name="hibernate.current_session_context_class">thread</property>
-        <property name="hibernate.connection.datasource">jdbc/Library</property>
+        <!--<property name="hibernate.current_session_context_class">thread</property>-->
+        <!--<property name="hibernate.current_session_context_class"> org.springframework.orm.hibernate4.SpringSessionContext </property>
+        --><property name="hibernate.connection.datasource">jdbc/Library</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
 
 
-        <mapping resource="by/malinovski/library/entities/Author.hbm.xml"/>
+        <mapping resource="by.malinovski.library/Author.hbm.xml"/>
         <mapping class="by.malinovski.library.entities.Author"/>
-        <mapping resource="by/malinovski/library/entities/Book.hbm.xml"/>
+        <mapping resource="by.malinovski.library/Book.hbm.xml"/>
         <mapping class="by.malinovski.library.entities.Book"/>
         <mapping class="by.malinovski.library.entities.Genre"/>
-        <mapping resource="by/malinovski/library/entities/Genre.hbm.xml"/>
-        <mapping resource="by/malinovski/library/entities/Publisher.hbm.xml"/>
+        <mapping resource="by.malinovski.library/Genre.hbm.xml"/>
+        <mapping resource="by.malinovski.library/Publisher.hbm.xml"/>
         <mapping class="by.malinovski.library.entities.Publisher"/>
-        <mapping resource="by/malinovski/library/entities/Vote.hbm.xml"/>
+        <mapping resource="by.malinovski.library/Vote.hbm.xml"/>
         <mapping class="by.malinovski.library.entities.Vote"/>
         <!-- <property name="connection.username"/> -->
         <!-- <property name="connection.password"/> -->
