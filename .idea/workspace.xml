@@ -2,75 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fa00119-945c-4c0b-b90c-5ac275ebc536" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_api_2_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_impl_2_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_binding_2_4_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_faces_2_4_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_2_4_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_resources_2_4_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_webflow_2_4_0_RELEASE.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Author.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/by.malinovski.library/Author.hbm.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Book.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/by.malinovski.library/Book.hbm.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Genre.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/by.malinovski.library/Genre.hbm.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Publisher.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/by.malinovski.library/Publisher.hbm.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Vote.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/by.malinovski.library/Vote.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/beans/testBean.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/beans/testBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/entities/Author.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/entities/Author.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Author.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Genre.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Publisher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Author.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Book.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Genre.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Publisher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Author.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Genre.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Publisher.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/entities/Book.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/entities/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/entities/Genre.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/entities/Genre.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/entities/Publisher.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/entities/Publisher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/entities/Vote.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/entities/Vote.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/interfaces/BookSearch.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/interfaces/BookSearch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/interfaces/EditBook.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/interfaces/EditBook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/interfaces/Feedback.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/interfaces/Feedback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/interfaces/SecureLibrary.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/interfaces/SecureLibrary.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/interfaces/ShowBook.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/interfaces/ShowBook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Author.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Author.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Book.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Genre.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Genre.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Publisher.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/Publisher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/User.class" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by/malinovski/library/objects/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/beans/testBean.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/beans/testBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/entities/Author.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/entities/Author.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/entities/Book.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/entities/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/entities/Genre.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/entities/Genre.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/entities/Publisher.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/entities/Publisher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/entities/Vote.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/entities/Vote.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/interfaces/BookSearch.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/interfaces/BookSearch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/interfaces/EditBook.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/interfaces/EditBook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/interfaces/Feedback.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/interfaces/Feedback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/interfaces/SecureLibrary.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/interfaces/SecureLibrary.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/interfaces/ShowBook.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/interfaces/ShowBook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Author.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Author.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Book.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Genre.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Genre.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Publisher.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/Publisher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/User.class" afterPath="$PROJECT_DIR$/target/classes/by/malinovski/library/objects/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookLibraryProject.iml" afterPath="$PROJECT_DIR$/BookLibraryProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/config/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/config/spring/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/flows/main.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/flows/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by.malinovski.library/Book.hbm.xml" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by.malinovski.library/Book.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by.malinovski.library/Genre.hbm.xml" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryProject_war_exploded/WEB-INF/classes/by.malinovski.library/Genre.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Book.java" afterPath="$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/BookSearch.java" afterPath="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/BookSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/EditBook.java" afterPath="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/EditBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/ShowBook.java" afterPath="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/ShowBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/by.malinovski.library/Book.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/by.malinovski.library/Book.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by.malinovski.library/Book.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/by.malinovski.library/Book.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by.malinovski.library/Genre.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/by.malinovski.library/Genre.hbm.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -135,21 +96,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <file leaf-file-name="Book.hbm.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/by.malinovski.library/Book.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Genre.hbm.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/by.malinovski.library/Genre.hbm.xml">
+      <file leaf-file-name="main.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/main.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,20 +119,49 @@
       <file leaf-file-name="BookDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/dao/impl/BookDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/BookSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NativeMethodAccessorImpl.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="476">
+              <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+              <folding>
+                <marker date="1499349300264" expanded="false" signature="2167:2178" ph=" { " />
+                <marker date="1499349300264" expanded="false" signature="2201:2207" ph=" }" />
+                <marker date="1499349300264" expanded="false" signature="2281:2292" ph=" { " />
+                <marker date="1499349300264" expanded="false" signature="2308:2314" ph=" }" />
+                <marker date="1499349300264" expanded="false" signature="2696:2707" ph=" { " />
+                <marker date="1499349300264" expanded="false" signature="2726:2732" ph=" }" />
+                <marker date="1499349300264" expanded="false" signature="2782:2793" ph=" { " />
+                <marker date="1499349300264" expanded="false" signature="2824:2830" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Author.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -181,17 +171,7 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/main.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -225,9 +205,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/BookSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/EditBook.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/ShowBook.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Book.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/locales/messages_en.Properties" />
         <option value="$PROJECT_DIR$/src/main/java/by/malinovski/library/beans/TestBean.java" />
@@ -244,6 +221,11 @@
         <option value="$PROJECT_DIR$/src/main/java/by/malinovski/library/dao/impl/BookDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/by.malinovski.library/Genre.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/BookSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/EditBook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/ShowBook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/by.malinovski.library/Book.hbm.xml" />
       </list>
     </option>
   </component>
@@ -268,9 +250,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -287,7 +270,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -415,20 +398,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookLibraryProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookLibraryProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -487,6 +456,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookLibraryProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookLibraryProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookLibraryProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookLibraryProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -561,7 +590,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -571,7 +600,7 @@
     <property name="project.structure.proportion" value="0.14965986" />
     <property name="project.structure.side.proportion" value="0.34712642" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/LibraryFlow_23" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="JPA.DatabaseSchemaImportDialog" value="65dcd97e-08fc-4236-98db-8f680328108a" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -1118,11 +1147,13 @@
       <workItem from="1499027032191" duration="1796000" />
       <workItem from="1499071325254" duration="7251000" />
       <workItem from="1499330413428" duration="4635000" />
+      <workItem from="1499348646680" duration="737000" />
+      <workItem from="1499415985577" duration="1852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24894000" />
+    <option name="totallyTimeSpent" value="27483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1134,7 +1165,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1150,19 +1181,19 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39977974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37334803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28787878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21666667" sideWeight="0.22671354" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40222222" sideWeight="0.77328646" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24413647" sideWeight="0.77328646" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17217484" sideWeight="0.27096775" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1172,7 +1203,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1200,14 +1231,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1251,33 +1274,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/jsf/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/EditBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/Feedback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1288,20 +1297,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Publisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Publisher.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1319,23 +1315,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/locales/messages_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/locales/messages.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/locales/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/65dcd97e-08fc-4236-98db-8f680328108a/console.sql">
@@ -1363,13 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1407,20 +1396,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/glassfish-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/by.malinovski.library/Book.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1433,108 +1414,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/main.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/beans/testBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/by.malinovski.library/Author.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#1047#1048#0" expanded="false" />
-            <element signature="e#1081#1082#0" expanded="false" />
-            <element signature="e#1125#1126#0" expanded="false" />
-            <element signature="e#1161#1162#0" expanded="false" />
-            <element signature="e#1192#1193#0" expanded="false" />
-            <element signature="e#1225#1226#0" expanded="false" />
-            <element signature="e#1266#1267#0" expanded="false" />
-            <element signature="e#1300#1301#0" expanded="false" />
-            <element signature="e#1339#1340#0" expanded="false" />
-            <element signature="e#1376#1377#0" expanded="false" />
-            <element signature="e#1429#1430#0" expanded="false" />
-            <element signature="e#1471#1472#0" expanded="false" />
-            <element signature="e#1502#1503#0" expanded="false" />
-            <element signature="e#1534#1535#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1606#1607#0" expanded="false" />
-            <element signature="e#1640#1641#0" expanded="false" />
-            <element signature="e#1675#1676#0" expanded="false" />
-            <element signature="e#1721#1722#0" expanded="false" />
-            <element signature="e#1759#1760#0" expanded="false" />
-            <element signature="e#1796#1797#0" expanded="false" />
-            <element signature="e#1833#1834#0" expanded="false" />
-            <element signature="e#1884#1885#0" expanded="false" />
-            <element signature="e#1926#1927#0" expanded="false" />
-            <element signature="e#1957#1958#0" expanded="false" />
-            <element signature="e#1989#1990#0" expanded="false" />
-            <element signature="e#2029#2030#0" expanded="false" />
-            <element signature="e#2061#2062#0" expanded="false" />
-            <element signature="e#2100#2101#0" expanded="false" />
-            <element signature="e#2139#2140#0" expanded="false" />
-            <element signature="e#2194#2195#0" expanded="false" />
-            <element signature="e#2240#2241#0" expanded="false" />
-            <element signature="e#2272#2273#0" expanded="false" />
-            <element signature="e#2305#2306#0" expanded="false" />
-            <element signature="e#2347#2348#0" expanded="false" />
-            <element signature="e#2381#2382#0" expanded="false" />
-            <element signature="e#2413#2414#0" expanded="false" />
-            <element signature="e#2446#2447#0" expanded="false" />
-            <element signature="e#2488#2489#0" expanded="false" />
-            <element signature="e#2522#2523#0" expanded="false" />
-            <element signature="e#2556#2557#0" expanded="false" />
-            <element signature="e#2590#2591#0" expanded="false" />
-            <element signature="e#2635#2636#0" expanded="false" />
-            <element signature="e#2671#2672#0" expanded="false" />
-            <element signature="e#2705#2706#0" expanded="false" />
-            <element signature="e#2742#2743#0" expanded="false" />
-            <element signature="e#2790#2791#0" expanded="false" />
-            <element signature="e#2832#2833#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/BookSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/ShowBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1547,41 +1430,38 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/3125ccdc/65dcd97e-08fc-4236-98db-8f680328108a/bookmanager.genre">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/3125ccdc/65dcd97e-08fc-4236-98db-8f680328108a/bookmanager.publisher">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/3125ccdc/65dcd97e-08fc-4236-98db-8f680328108a/bookmanager.author">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1607,12 +1487,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.799396681749623" x="259.0858490566037" y="281.5" />
+          <settings layout="Hierarchic Group" zoom="0.799396681749623" x="259.0" y="282.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
             <Category>Columns</Category>
+            <Category>Key columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1621,7 +1502,7 @@
         <state relative-caret-position="170">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1630,7 +1511,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1641,42 +1521,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        <state relative-caret-position="442">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/dao/impl/BookDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
+        <state relative-caret-position="408">
           <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Author.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Book.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/objects/Genre.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by.malinovski.library/Author.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1684,7 +1548,103 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/by.malinovski.library/Genre.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/EditBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/ShowBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/main.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/interfaces/BookSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/entities/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <marker date="1499349300264" expanded="false" signature="2167:2178" ph=" { " />
+            <marker date="1499349300264" expanded="false" signature="2201:2207" ph=" }" />
+            <marker date="1499349300264" expanded="false" signature="2281:2292" ph=" { " />
+            <marker date="1499349300264" expanded="false" signature="2308:2314" ph=" }" />
+            <marker date="1499349300264" expanded="false" signature="2696:2707" ph=" { " />
+            <marker date="1499349300264" expanded="false" signature="2726:2732" ph=" }" />
+            <marker date="1499349300264" expanded="false" signature="2782:2793" ph=" { " />
+            <marker date="1499349300264" expanded="false" signature="2824:2830" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/malinovski/library/dao/impl/BookDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/by.malinovski.library/Book.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding />
         </state>
       </provider>

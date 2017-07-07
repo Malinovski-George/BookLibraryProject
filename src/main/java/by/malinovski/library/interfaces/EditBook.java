@@ -1,7 +1,7 @@
 package by.malinovski.library.interfaces;
 
 
-import by.malinovski.library.objects.Book;
+import by.malinovski.library.entities.Book;
 
 public interface EditBook {
 

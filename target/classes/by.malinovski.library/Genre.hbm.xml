@@ -7,6 +7,6 @@
     <class name="by.malinovski.library.entities.Genre" table="genre" schema="bookmanager">
         <id name="id" column="id"/>
         <property name="name" column="name"/>
-        <property name="parent" column="parent"/>
+        <!--<property name="parent" column="parent"/>-->
     </class>
 </hibernate-mapping>

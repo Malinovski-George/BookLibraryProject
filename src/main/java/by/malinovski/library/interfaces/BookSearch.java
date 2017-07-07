@@ -1,8 +1,8 @@
 package by.malinovski.library.interfaces;
 
-import by.malinovski.library.objects.Author;
-import by.malinovski.library.objects.Book;
-import by.malinovski.library.objects.Genre;
+import by.malinovski.library.entities.Author;
+import by.malinovski.library.entities.Book;
+import by.malinovski.library.entities.Genre;
 
 import java.util.List;
 

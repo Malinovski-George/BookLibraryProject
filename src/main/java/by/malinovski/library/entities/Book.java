@@ -11,19 +11,48 @@ import java.util.Arrays;
  */
 @Entity
 public class Book {
-    private long id;
+
+   /* private long genreId;
+    private long authorId;
+    private long publisherId;*/
+    private Long id;
+    private Author author;
+    private Genre genre;
+    private Publisher publisher;
     private String name;
     private byte[] content;
-    private int pageCount;
+    private Integer pageCount;
     private String isbn;
-    private long genreId;
-    private long authorId;
-    private int publishYear;
-    private long publisherId;
+    private Integer publishYear;
     private byte[] image;
     private String descr;
     private Integer rating;
     private Long voteCount;
+
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
+
+    public void setGenre(Genre genre) {
+        this.genre = genre;
+    }
+
+    public void setPublisher(Publisher publisher) {
+        this.publisher = publisher;
+    }
+
+    public Author getAuthor() {
+
+        return author;
+    }
+
+    public Genre getGenre() {
+        return genre;
+    }
+
+    public Publisher getPublisher() {
+        return publisher;
+    }
 
     @Id
     @Column(name = "id")
@@ -75,7 +104,7 @@ public class Book {
         this.isbn = isbn;
     }
 
-    @Basic
+   /* @Basic
     @Column(name = "genre_id")
     public long getGenreId() {
         return genreId;
@@ -93,7 +122,7 @@ public class Book {
 
     public void setAuthorId(long authorId) {
         this.authorId = authorId;
-    }
+    }*/
 
     @Basic
     @Column(name = "publish_year")
@@ -105,7 +134,7 @@ public class Book {
         this.publishYear = publishYear;
     }
 
-    @Basic
+    /*@Basic
     @Column(name = "publisher_id")
     public long getPublisherId() {
         return publisherId;
@@ -114,7 +143,7 @@ public class Book {
     public void setPublisherId(long publisherId) {
         this.publisherId = publisherId;
     }
-
+*/
     @Basic
     @Column(name = "image")
     public byte[] getImage() {
@@ -164,10 +193,10 @@ public class Book {
 
         if (id != book.id) return false;
         if (pageCount != book.pageCount) return false;
-        if (genreId != book.genreId) return false;
-        if (authorId != book.authorId) return false;
+        /*if (genreId != book.genreId) return false;
+        if (authorId != book.authorId) return false;*/
         if (publishYear != book.publishYear) return false;
-        if (publisherId != book.publisherId) return false;
+       /* if (publisherId != book.publisherId) return false;*/
         if (name != null ? !name.equals(book.name) : book.name != null) return false;
         if (!Arrays.equals(content, book.content)) return false;
         if (isbn != null ? !isbn.equals(book.isbn) : book.isbn != null) return false;
@@ -186,10 +215,10 @@ public class Book {
         result = 31 * result + Arrays.hashCode(content);
         result = 31 * result + pageCount;
         result = 31 * result + (isbn != null ? isbn.hashCode() : 0);
-        result = 31 * result + (int) (genreId ^ (genreId >>> 32));
-        result = 31 * result + (int) (authorId ^ (authorId >>> 32));
+        /*result = 31 * result + (int) (genreId ^ (genreId >>> 32));
+        result = 31 * result + (int) (authorId ^ (authorId >>> 32));*/
         result = 31 * result + publishYear;
-        result = 31 * result + (int) (publisherId ^ (publisherId >>> 32));
+        /*result = 31 * result + (int) (publisherId ^ (publisherId >>> 32));*/
         result = 31 * result + Arrays.hashCode(image);
         result = 31 * result + (descr != null ? descr.hashCode() : 0);
         result = 31 * result + (rating != null ? rating.hashCode() : 0);
