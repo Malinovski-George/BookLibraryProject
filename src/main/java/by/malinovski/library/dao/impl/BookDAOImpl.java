@@ -6,10 +6,7 @@ import by.malinovski.library.entities.Book;
 import by.malinovski.library.entities.Genre;
 import org.hibernate.Criteria;
 import org.hibernate.SessionFactory;
-import org.hibernate.criterion.DetachedCriteria;
-import org.hibernate.criterion.Order;
-import org.hibernate.criterion.ProjectionList;
-import org.hibernate.criterion.Projections;
+import org.hibernate.criterion.*;
 import org.hibernate.transform.Transformers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -54,24 +51,33 @@ public class BookDAOImpl implements BookDAO {
         //return books;
     }
 
+    @Transactional
     @Override
     public List<Book> getBooks(Author author) {
-        return null;
+        List<Book> books = createBookList(createBookCriteria().add(Restrictions.ilike("author.fio", author.getFio(), MatchMode.ANYWHERE)));
+        return books;
     }
 
+    @Transactional
     @Override
     public List<Book> getBooks(String bookName) {
-        return null;
+        List<Book> books = createBookList(createBookCriteria().add(Restrictions.ilike("b.name", bookName, MatchMode.ANYWHERE)));
+        return books;
     }
 
+    @Transactional
     @Override
     public List<Book> getBooks(Genre genre) {
-        return null;
+        List<Book> books = createBookList(createBookCriteria().add(Restrictions.ilike("author.fio", genre.getName(), MatchMode.ANYWHERE)));
+        return books;
     }
 
+    @Transactional
     @Override
     public List<Book> getBooks(Character letter) {
-        return null;
+        List<Book> books = createBookList(createBookCriteria().add(Restrictions.ilike("b.name", letter.toString(), MatchMode.START)));
+        return books;
+
     }
 
     private void createAliases(DetachedCriteria criteria) {
@@ -86,4 +92,9 @@ public class BookDAOImpl implements BookDAO {
         return criteria.list();
     }
 
+    private DetachedCriteria createBookCriteria(){
+        DetachedCriteria bookListCriteria = DetachedCriteria.forClass(Book.class, "b");
+        createAliases(bookListCriteria);
+        return bookListCriteria;
+    }
 }
