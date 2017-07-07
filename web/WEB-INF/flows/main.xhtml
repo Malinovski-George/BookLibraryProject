@@ -5,13 +5,15 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core"
-      xmlns:p="http://primefaces.org/ui"
->
-<f:view>
+      xmlns:p="http://primefaces.org/ui">
+<!--<f:view>
     <h:outputLabel value="Hello, WF world"/>
     <p:button value=" ${msg.welcome}"/>
-
     ${testBean.test()}
+</f:view>-->
 
-</f:view>
+<ui:composition template="/WEB-INF/templates/library.xhtml">
+
+</ui:composition>
+
 </html>
