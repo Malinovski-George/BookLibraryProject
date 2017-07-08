@@ -12,23 +12,30 @@
 <h:body>
     <ui:composition>
 
-
         <div class="nav">
 
-            <h:form id="lettersForm">
+            <h:form id="lettersFormRU">
                 <ul>
-                    <ui:repeat value="${utils.letters}" var="letter">
+                    <ui:repeat value="${utils.lettersRU}" var="letterRU">
                         <li>
-                            <p:commandLink value="${letter}"/>
+                            <p:commandLink value="${letterRU}"/>
+                        </li>
+                    </ui:repeat>
+
+                </ul>
+            </h:form>
+            <h:form id="lettersFormEN">
+                <ul>
+                    <ui:repeat value="${utils.lettersEN}" var="letterEN">
+                        <li>
+                            <p:commandLink value="${letterEN}"/>
                         </li>
                     </ui:repeat>
 
                 </ul>
             </h:form>
 
-
         </div>
-
 
     </ui:composition>
 </h:body>
