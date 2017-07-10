@@ -15,6 +15,13 @@ public class Author {
     private String fio;
     private Date birthday;
 
+    public Author(String fio) {
+        this.fio = fio;
+    }
+
+    public Author() {
+    }
+
     @Id
     @Column(name = "id")
     public long getId() {
