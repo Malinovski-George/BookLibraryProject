@@ -18,9 +18,11 @@
                 <ul>
                     <ui:repeat value="${utils.lettersRU}" var="letterRU">
                         <li>
-                           <!-- <p:commandLink value="${letterRU}"/>-->
-                            <p:commandLink value="#{letterRU}" action="searchByLetter"
-                                           actionListener="#{searchCriteria.setLetter(letterRU)}" ajax="false"/>
+                            <!-- <p:commandLink value="${letterRU}"/>-->
+                            <p:commandButton value="#{letterRU}" action="searchByLetter" styleClass="noborder-button"
+                                             actionListener="#{searchCriteria.setLetter(letterRU)}">
+                                <p:ajax execute="@form" render=":booksForm:booksList"/>
+                            </p:commandButton>
 
                         </li>
                     </ui:repeat>
