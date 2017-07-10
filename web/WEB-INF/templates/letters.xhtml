@@ -18,22 +18,28 @@
                 <ul>
                     <ui:repeat value="${utils.lettersRU}" var="letterRU">
                         <li>
-                            <p:commandLink value="${letterRU}"/>
+                           <!-- <p:commandLink value="${letterRU}"/>-->
+                            <p:commandLink value="#{letterRU}" action="searchByLetter"
+                                           actionListener="#{searchCriteria.setLetter(letterRU)}" ajax="false"/>
+
                         </li>
                     </ui:repeat>
 
                 </ul>
             </h:form>
+
+            <!-- ******************* English ************************
+            *
             <h:form id="lettersFormEN">
-                <ul>
-                    <ui:repeat value="${utils.lettersEN}" var="letterEN">
-                        <li>
-                            <p:commandLink value="${letterEN}"/>
-                        </li>
-                    </ui:repeat>
+                 <ul>
+                     <ui:repeat value="${utils.lettersEN}" var="letterEN">
+                         <li>
+                             <p:commandLink value="${letterEN}"/>
+                         </li>
+                     </ui:repeat>
 
-                </ul>
-            </h:form>
+                 </ul>
+             </h:form>-->
 
         </div>
 

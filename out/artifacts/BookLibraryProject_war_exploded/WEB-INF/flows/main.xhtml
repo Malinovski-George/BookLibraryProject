@@ -53,10 +53,10 @@
 
                         </div>
                         <span>#{b.author}</span>
-                        <p><strong>#{msg.page_count}:</strong> #{b.pageCount}</p>
-                        <p><strong>#{msg.publisher}</strong> #{b.publisher}</p>
-                        <p><strong>#{msg.publish_year}</strong> #{b.publishYear} г.</p>
-                        <p><strong>#{msg.isbn}</strong> #{b.isbn}</p>
+                        <p><strong>#{msg.page_count}: </strong> #{b.pageCount}</p>
+                        <p><strong>#{msg.publisher}: </strong> #{b.publisher}</p>
+                        <p><strong>#{msg.publish_year}: </strong> #{b.publishYear} г.</p>
+                        <p><strong>#{msg.isbn}: </strong> #{b.isbn}</p>
 
                     </div>
 
@@ -81,6 +81,23 @@
             </p:dataGrid>
 
         </h:form>
+
+    </ui:define>
+
+    <ui:define name="books_count">
+
+        <div class="box-sh">
+
+            <h1><p:outputLabel id="booksCount" value="#{msg.book_count}:  #{libraryFacade.books.size()}" /></h1>
+
+            <h:form id="add-action">
+                <p:commandLink >
+                    <h:outputText value="#{msg.add_book}" title="#{msg.add_book}"/>
+                </p:commandLink>
+            </h:form>
+
+
+        </div>
 
     </ui:define>
 
