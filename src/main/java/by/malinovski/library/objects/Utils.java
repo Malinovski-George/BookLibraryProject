@@ -5,7 +5,6 @@ import by.malinovski.library.enums.SearchType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
-
 import javax.faces.context.FacesContext;
 import java.util.HashMap;
 import java.util.Map;
@@ -18,7 +17,7 @@ public class Utils {
     @Autowired
     private MessageSource msg;
 
-
+/* --------------------------------  Search list -----------------------*/
     public Map<String, SearchType> getSearchTypeList() {
         searchTypeList.clear();
         searchTypeList.put(msg.getMessage("author_name", null, FacesContext.getCurrentInstance().getViewRoot().getLocale()), SearchType.AUTHOR);
@@ -33,7 +32,7 @@ public class Utils {
     public void setSearchTypeList(Map<String, SearchType> searchTypeList) {
         this.searchTypeList = searchTypeList;
     }
-
+/*----------------------------------------------------------------------*/
 
 
 
