@@ -18,7 +18,7 @@ public class LibraryFacade {
     private BookDAO bookDAO;
     @Autowired
     private SearchCriteria searchCriteria;
-
+    private static final String FIELD_CONTENT = "content";
 
     public List<Book> getBooks() {
         if (books == null){
@@ -46,6 +46,10 @@ public class LibraryFacade {
                 break;
         }
 
+    }
+
+    public byte[] getContent(long id){
+        return (byte[])bookDAO.getFieldValue(id, FIELD_CONTENT);
     }
 
 }

@@ -20,4 +20,6 @@ public interface BookDAO {
 
     List<Book> getBooks(Character letter);
 
+    Object getFieldValue(Long id, String fieldName);
+
 }
