@@ -96,5 +96,15 @@
         </mvc:interceptor>
     </mvc:interceptors>
 
+    <!-- ****************************** connection between spring & servlet ************************************* -->
+
+    <bean class="org.springframework.web.context.support.ServletContextAttributeExporter">
+        <property name="attributes">
+            <map>
+                <entry key="libraryFacade" value-ref="libraryFacade"/>
+            </map>
+        </property>
+    </bean>
+
 
 </beans>
