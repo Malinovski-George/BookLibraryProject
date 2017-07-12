@@ -140,12 +140,16 @@ body {
 .item .info p a {color: #666;}
 .item .info p a:hover {text-decoration: none; }
 .item .mr { margin-top: 15px; width:85px; border-radius: 5px; background: #8aa1a7; float: left; padding: 10px 17px 10px 17px; margin-left: 19px; text-decoration: none; color: #ffffff; font-size: 14px;}
-.item .delete-button {margin-top: 15px; border-radius: 5px; background: #a71506; width:85px; float: left; padding: 10px 17px 10px 17px; margin-left: 19px; text-decoration: none; color: #fff; font-size: 14px;}
+
+.item .delete-button {margin-top: 15px; margin-left: 19px; border-radius: 5px; background: #a71506;
+    width:100%; float: left; display: block;
+    padding: 10px 17px 10px 17px;  text-decoration: none; color: #fff; font-size: 14px;}
+
 .item .read {font-size: 14px; text-align: left; background:url("#{resource['images:read-bg.png']}") no-repeat 0% 50%; padding-left: 25px;}
 .item .delete {font-size: 14px; text-align: left; background:url("#{resource['images:recycle.png']}") no-repeat 0% 50%; padding-left: 25px;}
 .item .edit {font-size: 14px; text-align: left; background:url("#{resource['images:edit.png']}") no-repeat 0% 50%; padding-left: 25px;}
 .item .download {font-size: 14px; text-align: left; background:url("#{resource['images:down-bg.png']}") no-repeat 0% 50%; padding-left: 25px;}
-
+.delete-button2 { font-size: 14px; text-align: left; background:url("#{resource['images:recycle.png']}") no-repeat 0% 50%; padding-left: 25px;margin-top: 15px; border-radius: 5px; background: #a71506; width:85px; float: left; padding: 10px 17px 10px 17px; margin-left: 19px; text-decoration: none; color: #fff; font-size: 14px;}
 .pagination { overflow: hidden; padding-top: 29px; padding-left: 40px; }
 .pagination li {float: left; font-size: 14px;}
 .pagination a {color: #000; padding: 8px 10px 8px 10px; display: block;}
@@ -277,7 +281,10 @@ body {
     width: 150px;
 
 }
-
+.delete_book{
+    float: left;
+    color: red;
+}
 
 .rating{
     float:left;
@@ -311,7 +318,10 @@ body {
 
 }
 
-
+.delete_book{
+    float: left;
+    color: red;
+}
 
 
 #booksForm select{

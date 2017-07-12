@@ -4,11 +4,10 @@
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:tx="http://www.springframework.org/schema/tx"
-       xsi:schemaLocation="
-    http://www.springframework.org/schema/beans
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
-    http://www.springframework.org/schema/aop
-    http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+
+
     http://www.springframework.org/schema/tx
     http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
     http://www.springframework.org/schema/context
@@ -18,9 +17,10 @@
 
 
     <import resource="webflow.xml"/>
+    <import resource="controllers.xml"/>
+
     <context:component-scan base-package="by.malinovski.library"/>
     <mvc:resources location="/resources/" mapping="/resources/**"/>
-
 
     <bean class="org.springframework.webflow.mvc.servlet.FlowHandlerMapping">
         <property name="flowRegistry" ref="flowRegistry"/>
@@ -90,7 +90,7 @@
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
-            <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+            <bean id="localChangeInterceptor" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
                 <property name="paramName" value="lang"/>
             </bean>
         </mvc:interceptor>
@@ -102,6 +102,7 @@
         <property name="attributes">
             <map>
                 <entry key="libraryFacade" value-ref="libraryFacade"/>
+
             </map>
         </property>
     </bean>

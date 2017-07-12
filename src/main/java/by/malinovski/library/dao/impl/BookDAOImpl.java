@@ -5,6 +5,7 @@ import by.malinovski.library.entities.Author;
 import by.malinovski.library.entities.Book;
 import by.malinovski.library.entities.Genre;
 import org.hibernate.Criteria;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.*;
 import org.hibernate.transform.Transformers;
@@ -80,6 +81,7 @@ public class BookDAOImpl implements BookDAO {
 
     }
 
+
     @Transactional
     @Override
     public Object getFieldValue(Long id, String fieldName) {
@@ -87,6 +89,14 @@ public class BookDAOImpl implements BookDAO {
         criteria.setProjection(Property.forName(fieldName));
         criteria.add(Restrictions.eq("id", id));
         return criteria.uniqueResult();
+    }
+
+    @Transactional
+    @Override
+    public void deleteBook(Long id) {
+        Session session = sessionFactory.getCurrentSession();
+        Book book = (Book) session.createCriteria(Book.class).add(Restrictions.eq("id", id)).uniqueResult();
+        session.delete(book);
     }
 
     private void createAliases(DetachedCriteria criteria) {
@@ -101,9 +111,11 @@ public class BookDAOImpl implements BookDAO {
         return criteria.list();
     }
 
-    private DetachedCriteria createBookCriteria(){
+    private DetachedCriteria createBookCriteria() {
         DetachedCriteria bookListCriteria = DetachedCriteria.forClass(Book.class, "b");
         createAliases(bookListCriteria);
         return bookListCriteria;
     }
+
+
 }

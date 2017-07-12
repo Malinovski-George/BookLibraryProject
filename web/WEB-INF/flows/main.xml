@@ -17,6 +17,9 @@
     <transition on="searchByText">
         <evaluate expression="libraryFacade.searchBooksByText()" />
     </transition>
+    <transition on="deleteById">
+        <evaluate expression="libraryFacade.deleteBook()" />
+    </transition>
 
 </view-state>
 

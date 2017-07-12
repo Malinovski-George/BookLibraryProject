@@ -52,4 +52,10 @@ public class LibraryFacade {
         return (byte[])bookDAO.getFieldValue(id, FIELD_CONTENT);
     }
 
+    public void deleteBook(){
+        bookDAO.deleteBook(searchCriteria.getId());
+    }
+    public void deleteBook(long id){
+        bookDAO.deleteBook(id);
+    }
 }

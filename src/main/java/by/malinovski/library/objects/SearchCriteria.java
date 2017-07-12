@@ -16,6 +16,15 @@ public class SearchCriteria implements Serializable {
     private SearchType searchType;
     private Character letter;
     private Genre genre;
+    private Long id;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getText() {
         return text;

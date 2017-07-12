@@ -140,7 +140,6 @@ body {
 .item .info p a {color: #666;}
 .item .info p a:hover {text-decoration: none; }
 .item .mr { margin-top: 15px; width:85px; border-radius: 5px; background: #16a724; float: left; padding: 10px 17px 10px 17px; margin-left: 19px; text-decoration: none; color: #acffb7; font-size: 14px;}
-.item .delete-button {margin-top: 15px; border-radius: 5px; background: #d5564d; width:85px; float: left; padding: 10px 17px 10px 17px; margin-left: 19px; text-decoration: none; color: #fff; font-size: 14px;}
 .item .read {font-size: 14px; text-align: left; background:url("#{resource['images:read-bg.png']}") no-repeat 0% 50%; padding-left: 25px;}
 .item .delete {font-size: 14px; text-align: left; background:url("#{resource['images:recycle.png']}") no-repeat 0% 50%; padding-left: 25px;}
 .item .edit {font-size: 14px; text-align: left; background:url("#{resource['images:edit.png']}") no-repeat 0% 50%; padding-left: 25px;}

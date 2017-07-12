@@ -22,4 +22,6 @@ public interface BookDAO {
 
     Object getFieldValue(Long id, String fieldName);
 
+    void deleteBook(Long id);
+
 }

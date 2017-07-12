@@ -6,8 +6,22 @@
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>/WEB-INF/config/spring/applicationContext.xml</param-value>
+        <param-value>
+            /WEB-INF/config/spring/applicationContext.xml
+            WEB-INF/config/spring/spring-security.xml
+        </param-value>
     </context-param>
+
+    <context-param>
+        <param-name>primefaces.THEME</param-name>
+        <param-value>library</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>javax.faces.FACELETS_LIBRARIES</param-name>
+        <param-value>/WEB-INF/springsecurity.taglib.xml</param-value>
+    </context-param>
+
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
@@ -36,5 +50,28 @@
         <res-auth>Container</res-auth>
         <res-sharing-scope>Shareable</res-sharing-scope>
     </resource-ref>
+
+    <!--*************** Spring Security DelegatingFilterProxy ************-->
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    </filter>
+
+    <!-- TODO Add locale filters to login page -->
+
+    <filter>
+        <filter-name>i18nFilter</filter-name>
+        <filter-class>by.malinovski.library.objects.InternationalizationFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>i18nFilter</filter-name>
+        <url-pattern>/login</url-pattern>
+    </filter-mapping>
 
 </web-app>
